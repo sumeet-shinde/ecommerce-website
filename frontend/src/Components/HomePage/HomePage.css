@@ -1,0 +1,46 @@
+.slide-container{
+  width: 83%;
+  margin: auto;
+  cursor: pointer;
+}
+
+.small{
+  width: 60%;
+}
+
+.slide{
+  min-width: 100%;
+  height: 100%;
+}
+
+.slide>img{
+  width: 100%;
+}
+
+.SalesDiv{
+  width: 90%;
+  display: grid;
+  margin: auto;
+  grid-template-columns: repeat(3, 450px);
+  grid-template-rows: 350px;
+  margin-top: 3%;
+  margin-bottom: 3%;
+  cursor: pointer;
+}
+
+.SalesDiv>div{
+  height: 100%;
+  border: 2px solid gray;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.SalesDiv>div>img{
+  width: 250px;
+}
+
+.SalesDiv>div>p{
+  font-size: 18px;
+  font-weight: 700;
+}

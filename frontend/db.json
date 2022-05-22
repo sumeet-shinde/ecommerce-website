@@ -1,0 +1,160 @@
+{
+  "products": [
+    {
+      "name": "Puma T-shirt Black",
+      "price": 400,
+      "size": "M",
+      "color": "black",
+      "image": "https://images.puma.com/image/upload/f_auto,q_auto,b_rgb:fafafa,w_2000,h_2000/global/586725/01/fnd/IND/fmt/png/Active-Small-Logo-Regular-Fit-Men's-T-shirt",
+      "category": "clothing",
+      "gender": "men",
+      "id": 1
+    },
+    {
+      "name": "Puma T-shirt Red",
+      "price": 500,
+      "size": "L",
+      "color": "red",
+      "image": "https://images.puma.com/image/upload/f_auto,q_auto,b_rgb:fafafa,w_2000,h_2000/global/673793/22/mod01/fnd/IND/fmt/png/Graphic-Pique-Men's-Polo",
+      "category": "clothing",
+      "gender": "men",
+      "id": 2
+    },
+    {
+      "name": "Puma T-shirt White",
+      "price": 1000,
+      "size": "S",
+      "color": "white", 
+      "image": "https://images.puma.com/image/upload/f_auto,q_auto,b_rgb:fafafa,w_2000,h_2000/global/532981/04/mod01/fnd/IND/fmt/png/Mattr-Spring-Men's-Golf-Polo",
+      "category": "clothing",
+      "gender": "men",
+      "id": 3
+    },
+    {
+      "name": "Puma T-shirt Orange",
+      "price": 1500,
+      "size": "L",
+      "color": "orange",
+      "image": "https://images.puma.com/image/upload/f_auto,q_auto,b_rgb:fafafa,w_2000,h_2000/global/538063/25/fnd/IND/fmt/png/RUN-Favorite-Heather-Short-Sleeves-Men's-T-Shirt",
+      "category": "clothing",
+      "gender": "men",
+      "id": 4
+    },
+    {
+      "name": "Puma T-shirt Blue",
+      "price": 2000,
+      "size": "L",
+      "color": "blue",
+      "image": "https://images.puma.com/image/upload/f_auto,q_auto,b_rgb:fafafa,w_2000,h_2000/global/670240/65/mod01/fnd/IND/fmt/png/PUMA-Graphic-Men's-Polo",
+      "category": "clothing",
+      "gender": "men",
+      "id": 5
+    },
+    {
+      "name": "Adidas T-shirt Blue",
+      "price": 2000,
+      "size": "L",
+      "color": "blue",
+      "image": "https://images.puma.com/image/upload/f_auto,q_auto,b_rgb:fafafa,w_2000,h_2000/global/670240/65/mod01/fnd/IND/fmt/png/PUMA-Graphic-Men's-Polo",
+      "category": "clothing",
+      "gender": "men",
+      "id": 6
+    },
+    {
+      "name": "Bean Bag Cover in Black",
+      "price": 900,
+      "size": "L",
+      "color": "black",
+      "image": "https://n4.sdlcdn.com/imgs/a/y/z/Bean-Bag-Cover-in-Black-SDL433431061-1-308e9.jpg",
+      "category": "furniture",
+      "id": 7
+    },
+    {
+      "name": "ORIENT ELECTRIC Ultimate 1000W Dry Iron White",
+      "price": 1000,
+      "power": "100W",
+      "color": "white",
+      "image": "https://n2.sdlcdn.com/imgs/k/e/f/ORIENT-ELECTRIC-Ultimate-1000W-Dry-SDL979611164-2-6aadb.jpg",
+      "category": "electronics",
+      "id": 8
+    }
+  ],
+  "users": [
+    {
+      "id": 1,
+      "name": "Sumeet Shinde",
+      "email": "sumeet@gmail.com",
+      "password": "123456",
+      "address": "Sion, Sion",
+      "city": "Mumbai",
+      "state": "Maharashtra",
+      "pincode": "400017"
+    }
+  ],
+  "carts": [],
+  "orders": [
+    {
+      "userID": 1,
+      "cardType": "Credit Card",
+      "cardNumber": "1111222233334444",
+      "cardExpiryDate": "07/19 - 12/22",
+      "cardCvv": "1234",
+      "payment": true,
+      "cart": [
+        {
+          "userID": 1,
+          "name": "Puma T-shirt",
+          "price": 500,
+          "totalPrice": 500,
+          "size": "L",
+          "color": "red",
+          "image": "https://images.puma.com/image/upload/f_auto,q_auto,b_rgb:fafafa,w_2000,h_2000/global/673793/22/mod01/fnd/IND/fmt/png/Graphic-Pique-Men's-Polo",
+          "category": "clothing",
+          "gender": "men",
+          "quantity": 1,
+          "id": 1
+        },
+        {
+          "userID": 1,
+          "name": "Puma T-shirt",
+          "price": 1000,
+          "totalPrice": 1000,
+          "size": "S",
+          "color": "white",
+          "image": "https://images.puma.com/image/upload/f_auto,q_auto,b_rgb:fafafa,w_2000,h_2000/global/532981/04/mod01/fnd/IND/fmt/png/Mattr-Spring-Men's-Golf-Polo",
+          "category": "clothing",
+          "gender": "men",
+          "quantity": 1,
+          "id": 2
+        }
+      ],
+      "datetime": "5/15/2022, 9:12:49 PM",
+      "id": 1
+    },
+    {
+      "userID": 1,
+      "cardType": "Debit Card",
+      "cardNumber": "1111222233334444",
+      "cardExpiryDate": "07/19 - 12/22",
+      "cardCvv": "1234",
+      "payment": true,
+      "cart": [
+        {
+          "userID": 1,
+          "name": "Puma T-shirt",
+          "price": 500,
+          "totalPrice": 1000,
+          "size": "L",
+          "color": "red",
+          "image": "https://images.puma.com/image/upload/f_auto,q_auto,b_rgb:fafafa,w_2000,h_2000/global/673793/22/mod01/fnd/IND/fmt/png/Graphic-Pique-Men's-Polo",
+          "category": "clothing",
+          "gender": "men",
+          "quantity": 2,
+          "id": 1
+        }
+      ],
+      "datetime": "5/16/2022, 10:24:19 PM",
+      "id": 2
+    }
+  ]
+}

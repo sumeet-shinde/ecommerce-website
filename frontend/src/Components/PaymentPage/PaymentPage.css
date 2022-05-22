@@ -1,0 +1,224 @@
+.HeaderDiv{
+  height: 67.5px;
+  background-color: #dddddd;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.SignPaymentDiv{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 170px;
+  margin-right: 3%;
+}
+
+.ReviewContainerDiv{
+  display: flex;
+  margin: 1% 8%;
+}
+
+.CartReviewDiv{
+  width: 850px;
+  background-color: #eeee;
+}
+
+.CartReviewHeader{
+  height: 67px;
+  width: 100%;
+  border: 1px solid white;
+  border-bottom: 3px solid gray;
+}
+
+.CartReviewHeader>p{
+  text-align: left;
+  font-size: 25px;
+  line-height: 13px;
+  padding-left: 2%;
+}
+
+.CartReviewItemHeaderDiv{
+  display: flex;
+  justify-content: space-around;
+}
+
+.CartReviewItemDivision{
+  display: flex;
+  padding: 2% 3%;
+  border-bottom: 1px solid gray;
+  line-height: 20px;
+}
+
+.CartReviewItemImage{
+  height: 130px;
+}
+
+.CartReviewItemSecondDiv{
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  margin-left: 3%;
+}
+
+.CartReviewItemSecondDiv>div:nth-child(1)>p{
+  text-align: left;
+}
+
+.CartReviewItemSecondDiv>div:nth-child(2){
+  font-size: 16px;
+  text-transform: uppercase;
+}
+
+.CartReviewItemSecondDiv>div:nth-child(3){
+  font-size: 16px;
+  text-transform: uppercase;
+}
+
+.CartReviewItemName{
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.CartReviewItemColor{
+  font-size: 17px;
+}
+
+.CartReviewItemPrice{
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.CardDiv{
+  width: 400px;
+  background-color: #eeee;
+  margin-left: 1%;
+  height: 460px;
+}
+
+.CardHeader{
+  height: 67px;
+  width: 100%;
+  border: 1px solid white;
+  border-bottom: 3px solid gray;
+  margin-bottom: 4%;
+}
+
+.CardHeader>p{
+  text-align: left;
+  font-size: 20px;
+  padding-left: 5%;
+}
+
+.CardDetails{
+  line-height: 5px;
+}
+
+.CardDetails>div:nth-child(1), .CardDetails>div:nth-child(2){
+  display: flex;
+  justify-content: space-between;
+  width: 90%;
+  margin-left: 5%;
+}
+
+.CardDetails>div:nth-child(2){
+  border-top: 1px solid gray;
+  border-bottom: 1px solid gray;
+  margin-top: 3%;
+  margin-bottom: 5%;
+  padding: 2% 0%;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.CardDetailsDivision>div{
+  padding: 1% 5%;
+  line-height: 16px;
+}
+
+.CardDetailsDivision>div:nth-child(1), .CardDetailsDivision>div:nth-child(3), .CardDetailsDivision>div:nth-child(4){
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.CardDetailsDivision>div:nth-child(1)>p{
+  line-height: 0px;
+}
+
+.CardDetailsDivision>div>p{
+  font-size: 16px;
+  text-align: left;
+}
+
+.CardDetailsDivision>div>input{
+  height: 30px;
+  font-size: 15px;
+  border-radius: 2px;
+  border: 1px solid gray;
+  padding: 0% 2%;
+}
+
+.CardSelect{
+  height: 30px;
+  font-size: 15px;
+  padding: 1% 5%;
+  border: 1px solid gray;
+}
+
+.CardDetailsDivision>div>input:focus, .CardSelect:focus{
+  outline: none !important;
+  border:1px solid #FF8C32;
+  box-shadow: 0 0 5px #FF8C32;
+}
+
+.CardNumberInput{
+  width: 97%;
+}
+
+.CardExpiryInput{
+  width: 60px;
+}
+
+.CardCVVInput{
+  width: 225px;
+}
+
+.OtpDiv{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #eeee;
+  display: none;
+}
+
+.show{
+  display: block;
+}
+
+.PaymentButton{
+  width: 100%;
+  height: 50px;
+  font-size: 16px;
+  font-weight: 600;
+  font-family: Roboto, Arial, sans-serif;
+  background-color: #FF8C32;
+  border: 1px solid whitesmoke;
+  color: white;
+  border-radius: 2px;
+  margin-top: 6%;
+  cursor: pointer;
+}
+
+.PaymentButton:hover{
+  background-color: #ff9b4f;
+}
+
+.PaymentButton:active{
+  background-color: rgb(251, 134, 44);
+}
+
+.PaymentButton:disabled{
+  background-color: rgb(80, 76, 73);
+  cursor: not-allowed;
+}

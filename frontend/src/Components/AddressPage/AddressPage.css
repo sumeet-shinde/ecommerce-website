@@ -1,0 +1,94 @@
+.HeaderDiv{
+  height: 67.5px;
+  background-color: #dddddd;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.SignAddressDiv{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 3%;
+  width: 170px;
+}
+
+.FormDiv{
+  width: 1050px;
+  height: 650px;
+  border: 1px solid gray;
+  margin: auto;
+  margin-top: 1%;
+  background-color: whitesmoke;
+}
+
+.FormHeaderDiv{
+  border-bottom: 2px solid gray;
+}
+
+.FormHeaderDiv>p{
+  text-align: left;
+  font-size: 25px;
+  font-weight: 600;
+  padding-left: 3%;
+}
+
+.Formtable{
+  border: 1px solid whitesmoke;
+  margin: auto;
+  margin-top: 1%;
+}
+
+.FormLabel{
+  font-size: 19px;
+  padding: 10px 15px;
+  text-align: left;
+  width: 150px;
+}
+
+.FormInput{
+  font-size: 18px;
+  height: 35px;
+  border-radius: 2px;
+  width: 400px;
+  padding-left: 2%;
+  border: 1px solid gray;
+}
+
+.FormInput:focus{
+  outline: none !important;
+  border:1px solid #FF8C32;
+  box-shadow: 0 0 5px #FF8C32;
+  /* border: 1px solid white;
+  outline: 3px solid orange; */
+}
+
+.ProceedButton{
+  width: 200px;
+  height: 50px;
+  font-size: 16px;
+  font-weight: 600;
+  font-family: Roboto, Arial, sans-serif;
+  background-color: #FF8C32;
+  border: 1px solid whitesmoke;
+  color: white;
+  border-radius: 2px;
+  margin-top: 2%;
+  cursor: pointer;
+  margin-left: 20%;
+}
+
+.ProceedButton:hover{
+  background-color: #ff9b4f;
+}
+
+.ProceedButton:hover:active{
+  background-color: rgb(251, 134, 44);
+}
+
+.ProceedButton:disabled{
+  background-color: rgb(80, 76, 73);
+  cursor: not-allowed;
+}
+
